@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1cc9cad-6ec9-44a9-b846-977dfac4090b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Biến, kiểu dữ liêu, toán tử/bai 2/Amount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML Form &amp; Table/Baitap/Tạo form đơn giản 1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -20,8 +30,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -44,6 +56,12 @@
       <workItem from="1588129887820" duration="617000" />
       <workItem from="1588153493019" duration="66000" />
       <workItem from="1588565802668" duration="52000" />
+      <workItem from="1588822836938" duration="31000" />
+      <workItem from="1588838087982" duration="40000" />
+      <workItem from="1588838274594" duration="68000" />
+      <workItem from="1588838905794" duration="1326000" />
+      <workItem from="1588843236405" duration="934000" />
+      <workItem from="1588861247036" duration="249000" />
     </task>
     <servers />
   </component>
@@ -51,9 +69,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="579" y="193" key="FileChooserDialogImpl" timestamp="1588565845421">
+    <state x="579" y="193" key="FileChooserDialogImpl" timestamp="1588844167664">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="579" y="193" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1588565845421" />
+    <state x="579" y="193" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1588844167664" />
   </component>
 </project>
