@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Máy tính cơ bản</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            height: 200px;
+            width: 200px;
+        }
+
+        button{
+            width: 40px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <td colspan="4"><p id="text"></p></td>
+    </tr>
+    <tr style="text-align: center">
+        <td onclick="Nhap('1')">1</td>
+        <td onclick="Nhap('2')">2</td>
+        <td onclick="Nhap('3')">3</td>
+        <td onclick="Nhap('+')">+</td>
+    </tr>
+    <tr style="text-align: center">
+        <td onclick="Nhap('4')">4</td>
+        <td onclick="Nhap('5')">5</td>
+        <td onclick="Nhap('6')">6</td>
+        <td onclick="Nhap('-')">-</td>
+    </tr>
+    <tr style="text-align: center">
+        <td onclick="Nhap('7')">7</td>
+        <td onclick="Nhap('8')">8</td>
+        <td onclick="Nhap('9')">9</td>
+        <td onclick="Nhap('*')">*</td>
+    </tr>
+    <tr style="text-align: center">
+        <td onclick="Xoa()">C</td>
+        <td onclick="Nhap('0')">0</td>
+        <td onclick="tinhToan()">=</td>
+        <td onclick="Nhap('/')">/</td>
+    </tr>
+</table>
+<script>
+    function Nhap(character) {
+        let text = document.getElementById("text").textContent;
+        document.getElementById("text").innerHTML = text + character;
+    }
+    function tinhToan() {
+        let result = eval(document.getElementById("text").textContent);
+        document.getElementById("text").innerText = result;
+    }
+    function Xoa(){
+            document.getElementById("text").innerHTML = "";
+    }
+</script>
+</body>
+</html>

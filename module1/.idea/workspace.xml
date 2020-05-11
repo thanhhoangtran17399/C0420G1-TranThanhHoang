@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1cc9cad-6ec9-44a9-b846-977dfac4090b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Biến, kiểu dữ liêu, toán tử/Bai 1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biến, kiểu dữ liêu, toán tử/Bai 1/.idea/Bai 1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biến, kiểu dữ liêu, toán tử/Bai 1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biến, kiểu dữ liêu, toán tử/Bai 1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biến, kiểu dữ liêu, toán tử/Bai 1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biến, kiểu dữ liêu, toán tử/Bai 1/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biến, kiểu dữ liêu, toán tử/Bai 1/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biến, kiểu dữ liêu, toán tử/Bai 1/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biến, kiểu dữ liêu, toán tử/Bai 1/2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biến, kiểu dữ liêu, toán tử/Bai 1/3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biến, kiểu dữ liêu, toán tử/Bai 1/3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biến, kiểu dữ liêu, toán tử/bai 2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biến, kiểu dữ liêu, toán tử/bai 2/.idea/bai 2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biến, kiểu dữ liêu, toán tử/bai 2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biến, kiểu dữ liêu, toán tử/bai 2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biến, kiểu dữ liêu, toán tử/bai 2/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Biến, kiểu dữ liêu, toán tử/bai 2/Amount.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML Form &amp; Table/Baitap/Tạo form đơn giản 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biến, kiểu dữ liêu, toán tử/bai 2/chuyển đổi tiền tệ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biến, kiểu dữ liêu, toán tử/bai 2/xvcvcv.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +78,8 @@
       <workItem from="1588838274594" duration="68000" />
       <workItem from="1588838905794" duration="1326000" />
       <workItem from="1588843236405" duration="934000" />
-      <workItem from="1588861247036" duration="249000" />
+      <workItem from="1588861247036" duration="906000" />
+      <workItem from="1588900280487" duration="470000" />
     </task>
     <servers />
   </component>
@@ -69,9 +87,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="579" y="193" key="FileChooserDialogImpl" timestamp="1588844167664">
+    <state x="579" y="193" key="FileChooserDialogImpl" timestamp="1588900744825">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="579" y="193" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1588844167664" />
+    <state x="579" y="193" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1588900744825" />
   </component>
 </project>

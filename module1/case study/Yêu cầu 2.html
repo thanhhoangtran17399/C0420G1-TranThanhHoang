@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let name = "Trần Thanh Hoàng";
+    let cmnd = "121312312";
+    let birthday = "17/3/1999";
+    let email = "abc@abc.com";
+    let address = "Đà Nẵng";
+    let typeService = "Villa";
+    let typeRom = "Vip";
+    let typeCustomer = "Diamon";
+    let discount = "10";
+    let rendDays = "7";
+    let quantityIncluded = "10";
+    let totalPay;
+    let choose = parseInt(prompt("1.Hiển thi thông tin khách hàng."+"\n"+
+        "2.Chỉnh sửa thông tin khách hàng."+"\n"+
+        "3.Hiển thị sau khi được giảm giá."));
+    switch (choose) {
+            case 1: {
+                alert("Tên:"+name+"\n"+
+                "cmnd:"+cmnd+"\n"+
+                "Ngày sinh:"+birthday+"\n"+
+                "email:"+email+"\n"+
+                "Địa chỉ:"+address+"\n"+
+                "Loại dịch vụ"+typeService+"\n"+
+                "Loại phòng:"+typeRom+"\n"+
+                "Loại khách hàng:"+typeCustomer+"\n"+
+                "Giảm giá:"+discount+"\n"+
+                "Số lượng ngày:"+rendDays+"\n"+
+                "Số lượng đi kèm:"+quantityIncluded+"\n");
+                break;
+            }
+            case 2: {
+               let chooseEdit = parseInt(prompt("1.Tên: "+name+"\n"+
+                    "2.cmnd: "+cmnd+"\n"+
+                    "3.Ngày sinh: "+birthday+"\n"+
+                    "4.email:"+email+"\n"+
+                    "5.Địa chỉ:"+address+"\n"+
+                    "6.Loại dịch vụ: "+typeService+"\n"+
+                    "7.Loại phòng: "+typeRom+"\n"+
+                    "8.Loại khách hàng: "+typeCustomer+"\n"+
+                    "9.Giảm giá: "+discount+"\n"+
+                    "10.Số lượng ngày: "+rendDays+"\n"+
+                    "11.Số lượng đi kèm: "+quantityIncluded+"\n"));
+                    switch (chooseEdit) {
+                        case 1:{
+                            name = prompt("Enter name: ");
+                            break;
+                        }
+                        default: {
+                            alert("Failed!");
+                        }
+                    }
+                    alert("Tên:"+name+"\n"+
+                        "cmnd:"+cmnd+"\n"+
+                        "Ngày sinh:"+birthday+"\n"+
+                        "email:"+email+"\n"+
+                        "Địa chỉ:"+address+"\n"+
+                        "Loại dịch vụ"+typeService+"\n"+
+                        "Loại phòng:"+typeRom+"\n"+
+                        "Loại khách hàng:"+typeCustomer+"\n"+
+                        "Giảm giá:"+discount+"\n"+
+                        "Số lượng ngày:"+rendDays+"\n"+
+                        "Số lượng đi kèm:"+quantityIncluded+"\n");
+            }
+            default:{
+                alert("Sự lựa chọn của bạn không có trong trình đơn")
+            }
+    }
+</script>
+</body>
+</html>
