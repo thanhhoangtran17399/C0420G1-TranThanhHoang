@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hàm tính diện tích và chu vi hình tròn</title>
+</head>
+<body>
+<script>
+    const Pi = 3.14;
+    let luaChon = prompt("Nhập vào lưạ chọn của bạn");
+    let r = prompt("Nhap vao ban kinh hinh tron: ")*1;
+    if (luaChon == 1){
+        alert("Chu vi hình tròn là: "+chuViHinhTron(r,Pi));
+    }
+    if (luaChon == 2){
+        alert("Diện tích hình tròn là: "+dienTichHinhTron(r,Pi));
+    }
+    function chuViHinhTron(r,Pi) {
+        return 2*r*Pi;
+    }
+    function dienTichHinhTron(r,Pi) {
+        return r*r*Pi;
+    }
+</script>
+</body>
+</html>

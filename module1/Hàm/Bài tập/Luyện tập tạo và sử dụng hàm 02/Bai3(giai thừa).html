@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+<script>
+    let n = prompt("Nhập vào một số: ");
+    function giaiThua(n) {
+        if(n == 0){
+            return 1;
+        }
+        return n * giaiThua(n-1);
+    }
+    alert(n+" giai thừa = "+giaiThua(n));
+</script>
+</body>
+</html>

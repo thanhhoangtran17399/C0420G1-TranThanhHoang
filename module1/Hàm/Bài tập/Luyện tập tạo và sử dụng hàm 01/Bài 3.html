@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+<script>
+/*  //Cách 1:
+  function soSanh(a,b) {
+        if (a>b){
+            alert("a>b");
+        }
+        else{
+            return a + b;
+        }
+    }
+alert(soSanh(3,3));*/
+//cách 2:
+    let a = prompt("Nhap a: ")*1;
+    let b = prompt("Nhap b: ")*1;
+    function soSanh(a,b) {
+        if (a>b){
+            alert(a+">"+b)
+        }else {
+            alert("Tong: "+(a+b));
+        }
+    }
+    soSanh(a,b);
+</script>
+</body>
+</html>

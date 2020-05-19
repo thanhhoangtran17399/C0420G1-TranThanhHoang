@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Viết hàm truyền vào 2 số nguyên bất kì, thực hiện đổi chỗ hai số nguyên đó.</title>
+</head>
+<body>
+    <script>
+        let a = prompt("Nhap a");
+        let b = prompt("Nhap b");
+       alert("hai so truoc khi doi cho la: a = "+a+", b = "+b);
+        function swap(a,b) {
+            let temp = null;
+            temp = a;
+            a = b;
+            b = temp;
+            alert("hai so sau khi doi cho la: a = "+a+", b = "+b);
+        }
+        swap(a,b);
+    </script>
+</body>
+</html>
