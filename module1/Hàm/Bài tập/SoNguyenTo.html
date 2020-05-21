@@ -16,7 +16,13 @@
         }
         return true;
     }
-
+    let  daySo ='';
+    for(let i = 2; i <= 10000; i++){
+        if(kiemtraSoNguyenTo(i)) {
+            daySo += i + ",";
+        }
+    }
+    document.write(daySo);
 </script>
 </body>
 </html>
